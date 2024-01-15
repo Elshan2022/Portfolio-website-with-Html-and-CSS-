@@ -1,0 +1,82 @@
+body {
+    flex-flow: row;
+    background-color: #8338ec;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainDivStyle {
+    height: 700px;
+    width: 450px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.userImageStyle {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.titleStyle {
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    display: flex;
+    height: 250px;
+    margin-bottom: 20px;
+
+}
+
+.infoStyle {
+    height: 50px;
+    flex-flow: row;
+    display: flex;
+}
+
+.valueStyle {
+    font-size: 16px;
+    color: black;
+}
+
+.logoStyle {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+    object-fit: cover;
+    margin-top: 12px;
+
+}
+
+.profileLinkStyle {
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutSectionStyle {
+    width: 440px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.linksStyles {
+    display: flex;
+    margin-left: 10px;
+    flex-flow: row;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.linkTextStyle {
+
+    color: black;
+}
